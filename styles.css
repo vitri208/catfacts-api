@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 10px;
+  background-image: url(catbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  height: fit-content;
+  min-width: 30%;
+  box-shadow: 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: green;
+}
+
+h3{
+  color: brown;
+}
+
+button{
+  background-color: green;
+  color: yellow;
+  padding: 10px;
+  border-radius: 30px;
+}
